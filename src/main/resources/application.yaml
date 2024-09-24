@@ -1,0 +1,9 @@
+server:
+  port: 4000
+spring:
+  application:
+    name: security-impl
+
+jwt:
+  secret: ThisIsMySecretForSignMySecureTokensInThisApplication
+  expiration: 200
